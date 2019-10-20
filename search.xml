@@ -5,7 +5,7 @@
     <url>/2019/10/20/1/</url>
     <content><![CDATA[<h3 id="MakeDown语法"><a href="#MakeDown语法" class="headerlink" title="MakeDown语法"></a>MakeDown语法</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">[hexo](http://www.baidu.com)  表示超链接</span><br><span class="line">##大标题</span><br><span class="line">###小标题</span><br><span class="line">&lt;!-- more --&gt;</span><br><span class="line">&lt;!-- 标签别名 --&gt;</span><br><span class="line">&#123;% cq %&#125;blah blah blah&#123;% endcq %&#125;</span><br><span class="line">空格  中文全角空格表示</span><br><span class="line">---</span><br><span class="line">文章标题</span><br><span class="line">---</span><br><span class="line">&gt;内容     区块引用</span><br><span class="line">*1</span><br><span class="line">*2</span><br><span class="line">*3</span><br><span class="line">列表</span><br><span class="line">*内容*     表示强调内容</span><br><span class="line">![Alt text](/path/to/img.jpg)  图片</span><br><span class="line">![](/upload_image/20161012/1.png)</span><br></pre></td></tr></table></figure>
 
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;!--more--&gt;</span><br></pre></td></tr></table></figure>
+<a id="more"></a>
 
 ]]></content>
   </entry>
