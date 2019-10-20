@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hexo</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2019-10-19T16:36:53.140Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>桃子</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>terminal</title>
+    <link href="http://yoursite.com/2019/10/20/terminal/"/>
+    <id>http://yoursite.com/2019/10/20/terminal/</id>
+    <published>2019-10-19T16:36:22.144Z</published>
+    <updated>2019-10-19T16:36:53.140Z</updated>
+    
+    <content type="html"><![CDATA[<p>title: 终端<br>date: 2019-10-19 23:57:24<br>tags: 终端<br>categories: 随笔</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;title: 终端&lt;br&gt;date: 2019-10-19 23:57:24&lt;br&gt;tags: 终端&lt;br&gt;categories: 随笔&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>端口porn</title>
+    <link href="http://yoursite.com/2019/10/20/%E7%AB%AF%E5%8F%A3porn/"/>
+    <id>http://yoursite.com/2019/10/20/端口porn/</id>
+    <published>2019-10-19T16:28:36.000Z</published>
+    <updated>2019-10-19T16:35:06.622Z</updated>
+    
+    <content type="html"><![CDATA[<p>查找8080端口</p><p>sudo lsof -i :8080</p><p>然后根据PID杀进程：</p><p>sudo kill -9 61342（即pid）</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;查找8080端口&lt;/p&gt;
+&lt;p&gt;sudo lsof -i :8080&lt;/p&gt;
+&lt;p&gt;然后根据PID杀进程：&lt;/p&gt;
+&lt;p&gt;sudo kill -9 61342（即pid）&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="随笔" scheme="http://yoursite.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="porn" scheme="http://yoursite.com/tags/porn/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>mysql用法</title>
+    <link href="http://yoursite.com/2019/10/19/mysql%E7%94%A8%E6%B3%95/"/>
+    <id>http://yoursite.com/2019/10/19/mysql用法/</id>
+    <published>2019-10-19T15:57:24.000Z</published>
+    <updated>2019-10-19T16:35:01.125Z</updated>
+    
+    <content type="html"><![CDATA[<p>mysql-u root -p</p><h2 id="Mysql环境配置"><a href="#Mysql环境配置" class="headerlink" title="Mysql环境配置"></a>Mysql环境配置</h2><p>cd ~</p><p>vim ./.bash_profile</p><p>按下esc 退出 insert 模式</p><p>export PATH=$PATH:/usr/local/mysql/bin</p><p>:wq</p><p>source ~/.bash_profile </p><p>echo $PATH</p><p>mysql -u root -p</p><p>自己在 ~/.bash_profile 中配置环境变量, 可是每次重启终端后配置的不生效.需要重新执行 : $source ~/.bash_profile</p><p>发现zsh加载的是 ~/.zshrc文件，而 ‘.zshrc’ 文件中并没有定义任务环境变量。</p><p>解决办法</p><p>在~/.zshrc文件最后，增加一行： </p><p>vim ~/.zshrc<br> 增加 source ~/.bash_profile</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;mysql-u root -p&lt;/p&gt;
+&lt;h2 id=&quot;Mysql环境配置&quot;&gt;&lt;a href=&quot;#Mysql环境配置&quot; class=&quot;headerlink&quot; title=&quot;Mysql环境配置&quot;&gt;&lt;/a&gt;Mysql环境配置&lt;/h2&gt;&lt;p&gt;cd ~&lt;/p&gt;
+&lt;p&gt;vim ./.
+      
+    
+    </summary>
+    
+    
+      <category term="随笔" scheme="http://yoursite.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="mysql" scheme="http://yoursite.com/tags/mysql/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>node.js</title>
+    <link href="http://yoursite.com/2019/10/19/hello-world/"/>
+    <id>http://yoursite.com/2019/10/19/hello-world/</id>
+    <published>2019-10-19T15:33:02.000Z</published>
+    <updated>2019-10-19T15:56:12.424Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="nvm-常用命令"><a href="#nvm-常用命令" class="headerlink" title="nvm 常用命令"></a>nvm 常用命令</h2><p>● nvm install stable 安装最新稳定版 node</p><p>● nvm install <version> 安装指定版本，如：安装v4.4.0，nvm install v4.4.0</p><p>● nvm uninstall <version> 删除已安装的指定版本，语法与install类似</p><p>● nvm use <version> 切换使用指定的版本node</p><p>● nvm ls 列出所有安装的版本</p><p>● nvm alias default <version> 如： nvm alias default v11.1.0</p><p>●nvm –version  当前版本信息</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;nvm-常用命令&quot;&gt;&lt;a href=&quot;#nvm-常用命令&quot; class=&quot;headerlink&quot; title=&quot;nvm 常用命令&quot;&gt;&lt;/a&gt;nvm 常用命令&lt;/h2&gt;&lt;p&gt;● nvm install stable 安装最新稳定版 node&lt;/p&gt;
+&lt;p&gt;● nvm
+      
+    
+    </summary>
+    
+    
+      <category term="随笔" scheme="http://yoursite.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="写作" scheme="http://yoursite.com/tags/%E5%86%99%E4%BD%9C/"/>
+    
+  </entry>
+  
+</feed>
